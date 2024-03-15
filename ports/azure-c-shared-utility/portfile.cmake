@@ -11,6 +11,7 @@ vcpkg_from_github(
         fix-utilityFunctions-conditions.patch
         disable-error.patch
         improve-dependencies.patch
+        posix_c_source.patch
 )
 
 vcpkg_cmake_configure(
