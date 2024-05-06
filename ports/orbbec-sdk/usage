@@ -1,0 +1,5 @@
+The package kerbal-fast provides CMake targets:
+
+    find_package(OrbbecSDK REQUIRED)
+    target_include_directories(${target} PRIVATE ${OrbbecSDK_INCLUDE_DIRS})
+    target_link_libraries(${target} PRIVATE ${OrbbecSDK_LIBS})

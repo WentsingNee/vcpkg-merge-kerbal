@@ -7556,6 +7556,10 @@
       "baseline": "1.0.2",
       "port-version": 0
     },
+    "orbbec-sdk": {
+      "baseline": "1.9.5",
+      "port-version": 0
+    },
     "orc": {
       "baseline": "2.2.2",
       "port-version": 2
