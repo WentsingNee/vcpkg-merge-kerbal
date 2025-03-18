@@ -13,7 +13,16 @@ index 9a20941d..d161326c 100644
  option( UNIT_TEST "Built unit tests" OFF )
  
  set ( ly_base_dir	${PROJECT_SOURCE_DIR} )
-@@ -149,6 +150,8 @@ if(WIN32)
+@@ -97,7 +98,7 @@
+     list(APPEND ly_lib_parts $<TARGET_OBJECTS:${ly_lib_name}_neon>)
+   endif()
+
+-  if(arch_lowercase STREQUAL "aarch64" OR arch_lowercase STREQUAL "arm64")
++  if(False)
+     # Enable AArch64 Neon dot-product and i8mm kernels.
+     add_library(${ly_lib_name}_neon64 OBJECT
+       ${ly_src_dir}/compare_neon64.cc
+@@ -149,6 +150,8 @@
    set_target_properties( ${ly_lib_shared} PROPERTIES IMPORT_PREFIX "lib" )
  endif()
  

@@ -5714,7 +5714,7 @@
     },
     "libyuv": {
       "baseline": "1896",
-      "port-version": 1
+      "port-version": 2
     },
     "libzen": {
       "baseline": "0.4.41",
